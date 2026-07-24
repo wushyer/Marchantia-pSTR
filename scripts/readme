@@ -1,1 +1,20 @@
+# Scripts
 
+This directory contains the main scripts used for pSTR identification and population-genomic analyses in *Marchantia polymorpha*.
+
+- **`pSTR-calling.sh`**  
+  Calls STR genotypes from whole-genome sequencing data and generates filtered polymorphic STR datasets.
+
+- **`filter_haploid_vcf.py`**  
+  Converts diploid-style VCF genotype calls into haploid-compatible genotypes. Homozygous calls are retained, while heterozygous calls are treated as missing.
+
+- **`ldhelmet.sh`**  
+  Runs the LDhelmet pipeline to estimate population-scaled recombination rates from haploid SNP data.
+
+- **`mar_lddecay_3types.py`**  
+  Calculates linkage disequilibrium decay for SNP–SNP, pSTR–pSTR, and pSTR–SNP marker pairs.
+
+- **`pSTR-taggingSNP.py`**  
+  Measures how well each pSTR is tagged by nearby SNPs by calculating SNP–pSTR correlations within a local genomic window.
+
+Before running the scripts, please modify the input paths, output paths, software locations, and analysis parameters according to your computing environment.
