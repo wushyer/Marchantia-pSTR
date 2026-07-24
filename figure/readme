@@ -1,1 +1,31 @@
 
+# Figure Generation
+
+This script contains the R code used to generate the main and supplementary figures for the *Marchantia polymorpha* pSTR study.
+
+## Main analyses and figures
+
+- **Figure 1:** Genomic distribution, motif composition, genomic-feature distribution, and enrichment of pSTRs. STR allele-size variation and expansion/contraction patterns across motif-length classes.
+- **Figure 3:** Number of alleles, major-allele frequency, pSTR-based PCA, and population-level genetic diversity.
+- **Climate PCA:** PCA of the 19 bioclimatic variables and visualization of variable loadings.
+- **Population-structure control:** Comparison of candidate pSTR–climate associations before and after controlling for genetic PCs.
+- **Supplementary figures:** Genetic diversity, GC content, genomic-feature comparisons, and additional reviewer-requested analyses.
+
+
+
+## R packages
+
+Main packages include:
+
+```r
+tidyverse
+data.table
+ggplot2
+ggrepel
+ggbeeswarm
+ggpubr
+cowplot
+patchwork
+vcfR
+splitstackshape
+ggsci
