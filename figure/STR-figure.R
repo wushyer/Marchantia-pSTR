@@ -1,5 +1,5 @@
 ######build reference for MP######
-perl -ne 'if (/^>(\S+)/) { close OUT; open OUT, ">$1.fasta" } print OUT' /groups/dolan/user/shuangyang.wu/ref/TakV7/MpTak_v7.1.fa
+perl -ne 'if (/^>(\S+)/) { close OUT; open OUT, ">$1.fasta" } print OUT' /MpTak_v7.1.fa
 #run trf
 for chrom in $(seq 1 8) U V
 do
