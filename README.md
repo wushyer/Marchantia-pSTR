@@ -9,4 +9,4 @@ Scripts for statistics and plotting figures in "Polymorphic STRs represent uniqu
 
 If you use these scripts, please cite the paper below:
 
-Shuangyang Wu, Shenghan Gao, Sen Wang4, Martin Lascoux, Hao Yu. Polymorphic STRs represent unique genetic signals beyond SNPs associated with climate adaptation in Marchantia polymorpha. imetaomics, 2026 inpress.
+Shuangyang Wu, Shenghan Gao, Sen Wang, Martin Lascoux, Hao Yu. Polymorphic STRs represent unique genetic signals beyond SNPs associated with climate adaptation in Marchantia polymorpha. imetaomics, 2026 inpress.
