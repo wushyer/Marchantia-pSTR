@@ -38,7 +38,7 @@ rm pass.MP pass.MP.r2 pass.MP.r3
 module load gcc/8.3.0
 export LD_LIBRARY_PATH=/software/2020/software/gcccore/8.3.0/lib64:$LD_LIBRARY_PATH
 
-/scratch-cbe/users/shuangyang.wu/str/WI-Ce-STRs/scripts/HipSTR_nf/HipSTR-0.7/HipSTR --bams bgld1.TAK1.markdup.bam,Bonn2.TAK1.markdup.bam,Bonn3.TAK1.markdup.bam,Bonn6.TAK1.markdup.bam,Cam1.TAK1.markdup.bam,Cam2.TAK1.markdup.bam,Canada1.TAK1.markdup.bam,Croatia.TAK1.markdup.bam,Czech1.TAK1.markdup.bam,Denmark1.TAK1.markdup.bam,Ehrenhausen3.TAK1.markdup.bam,Ehrenhausen6.TAK1.markdup.bam,France1.TAK1.markdup.bam,Germany1.TAK1.markdup.bam,Grafenegg1.TAK1.markdup.bam,Grafenegg2.TAK1.markdup.bam,Ireland10.TAK1.markdup.bam,Ireland12.TAK1.markdup.bam,Ireland13.TAK1.markdup.bam,Ireland18.TAK1.markdup.bam,Ireland19.TAK1.markdup.bam,Ireland1.TAK1.markdup.bam,Ireland21.TAK1.markdup.bam,Ireland22.TAK1.markdup.bam,Ireland2.TAK1.markdup.bam,Ireland36.TAK1.markdup.bam,Ireland37.TAK1.markdup.bam,Ireland38.TAK1.markdup.bam,Ireland3.TAK1.markdup.bam,Ireland5.TAK1.markdup.bam,Ireland6.TAK1.markdup.bam,Ireland7.TAK1.markdup.bam,Japan10.TAK1.markdup.bam,Japan12.TAK1.markdup.bam,Japan13.TAK1.markdup.bam,Japan16.TAK1.markdup.bam,Japan17.TAK1.markdup.bam,Japan18.TAK1.markdup.bam,Japan19.TAK1.markdup.bam,Japan1.TAK1.markdup.bam,Japan20.TAK1.markdup.bam,Japan21.TAK1.markdup.bam,Japan22.TAK1.markdup.bam,Japan26.TAK1.markdup.bam,Japan27.TAK1.markdup.bam,Japan28.TAK1.markdup.bam,Japan29.TAK1.markdup.bam,Japan2.TAK1.markdup.bam,Japan30.TAK1.markdup.bam,Japan4.TAK1.markdup.bam,Japan5.TAK1.markdup.bam,Japan6.TAK1.markdup.bam,Japan7.TAK1.markdup.bam,Japan9.TAK1.markdup.bam,MaG1.TAK1.markdup.bam,MiBa1.TAK1.markdup.bam,MiBa2.TAK1.markdup.bam,Norwich1.TAK1.markdup.bam,Norwich2.TAK1.markdup.bam,Norwich4.TAK1.markdup.bam,Oxford12.TAK1.markdup.bam,Oxford15.TAK1.markdup.bam,Oxford4.TAK1.markdup.bam,Oxford6.TAK1.markdup.bam,Schubert13.TAK1.markdup.bam,Schubert2.TAK1.markdup.bam,Schubert4.TAK1.markdup.bam,Schubert5.TAK1.markdup.bam,Schubert6.TAK1.markdup.bam,Schubert8.TAK1.markdup.bam,Schubert9.TAK1.markdup.bam,Sopron1.TAK1.markdup.bam,Tak1F7.TAK1.markdup.bam,Tak2F7.TAK1.markdup.bam,US1.TAK1.markdup.bam,Zurich14.TAK1.markdup.bam,Zurich6.TAK1.markdup.bam,Zurich9.TAK1.markdup.bam --fasta /groups/dolan/user/shuangyang.wu/ref/TakV7/TakV7.fa --regions /scratch-cbe/users/shuangyang.wu/str/HipSTR-references-1/MP.hipstr_reference.update.bed --chrom chr6 --haploid-chrs chr6 --str-vcf str_calls_6.vcf.gz
+/scratch-cbe/users/shuangyang.wu/str/WI-Ce-STRs/scripts/HipSTR_nf/HipSTR-0.7/HipSTR --bams bgld1.TAK1.markdup.bam,Bonn2.TAK1.markdup.bam,Bonn3.TAK1.markdup.bam,Bonn6.TAK1.markdup.bam,Cam1.TAK1.markdup.bam,Cam2.TAK1.markdup.bam,Canada1.TAK1.markdup.bam,Croatia.TAK1.markdup.bam,Czech1.TAK1.markdup.bam,Denmark1.TAK1.markdup.bam,Ehrenhausen3.TAK1.markdup.bam,Ehrenhausen6.TAK1.markdup.bam,France1.TAK1.markdup.bam,Germany1.TAK1.markdup.bam,Grafenegg1.TAK1.markdup.bam,Grafenegg2.TAK1.markdup.bam,Ireland10.TAK1.markdup.bam,Ireland12.TAK1.markdup.bam,Ireland13.TAK1.markdup.bam,Ireland18.TAK1.markdup.bam,Ireland19.TAK1.markdup.bam,Ireland1.TAK1.markdup.bam,Ireland21.TAK1.markdup.bam,Ireland22.TAK1.markdup.bam,Ireland2.TAK1.markdup.bam,Ireland36.TAK1.markdup.bam,Ireland37.TAK1.markdup.bam,Ireland38.TAK1.markdup.bam,Ireland3.TAK1.markdup.bam,Ireland5.TAK1.markdup.bam,Ireland6.TAK1.markdup.bam,Ireland7.TAK1.markdup.bam,Japan10.TAK1.markdup.bam,Japan12.TAK1.markdup.bam,Japan13.TAK1.markdup.bam,Japan16.TAK1.markdup.bam,Japan17.TAK1.markdup.bam,Japan18.TAK1.markdup.bam,Japan19.TAK1.markdup.bam,Japan1.TAK1.markdup.bam,Japan20.TAK1.markdup.bam,Japan21.TAK1.markdup.bam,Japan22.TAK1.markdup.bam,Japan26.TAK1.markdup.bam,Japan27.TAK1.markdup.bam,Japan28.TAK1.markdup.bam,Japan29.TAK1.markdup.bam,Japan2.TAK1.markdup.bam,Japan30.TAK1.markdup.bam,Japan4.TAK1.markdup.bam,Japan5.TAK1.markdup.bam,Japan6.TAK1.markdup.bam,Japan7.TAK1.markdup.bam,Japan9.TAK1.markdup.bam,MaG1.TAK1.markdup.bam,MiBa1.TAK1.markdup.bam,MiBa2.TAK1.markdup.bam,Norwich1.TAK1.markdup.bam,Norwich2.TAK1.markdup.bam,Norwich4.TAK1.markdup.bam,Oxford12.TAK1.markdup.bam,Oxford15.TAK1.markdup.bam,Oxford4.TAK1.markdup.bam,Oxford6.TAK1.markdup.bam,Schubert13.TAK1.markdup.bam,Schubert2.TAK1.markdup.bam,Schubert4.TAK1.markdup.bam,Schubert5.TAK1.markdup.bam,Schubert6.TAK1.markdup.bam,Schubert8.TAK1.markdup.bam,Schubert9.TAK1.markdup.bam,Sopron1.TAK1.markdup.bam,Tak1F7.TAK1.markdup.bam,Tak2F7.TAK1.markdup.bam,US1.TAK1.markdup.bam,Zurich14.TAK1.markdup.bam,Zurich6.TAK1.markdup.bam,Zurich9.TAK1.markdup.bam --fasta shuangyang.wu/ref/TakV7/TakV7.fa --regions /scratch-cbe/users/shuangyang.wu/str/HipSTR-references-1/MP.hipstr_reference.update.bed --chrom chr6 --haploid-chrs chr6 --str-vcf str_calls_6.vcf.gz
 
 bcftools concat chr*.vcf.gz | bcftools sort -Oz -o STR_all_raw.vcf.gz
 
@@ -53,19 +53,19 @@ bcftools view STR_all_filtered.vcf.gz | bcftools filter -i "F_MISSING<0.1" -Oz -
 less -S filtered_repeats.MP.sorted.bed|awk  '{print $1"_"$2"_"$3"_"$5"\t"$0}' > format2
 rm MP.hipstr_reference.bed
 less -S MP.hipstr_reference.update.bed |awk  '{print $1"_"$2"_"$3"_"$NF"\t"$0}' > format1
-perl /groups/dolan/user/shuangyang.wu/script/merge_files.pl -r format1 -n 1 -i format2 -c 1 -o out
+perl shuangyang.wu/script/merge_files.pl -r format1 -n 1 -i format2 -c 1 -o out
 less -S out |cut -f 2-8,17 >STR.all.info
 
-RESULT:STR type annotation: (tools3) [shuangyang.wu@clip-login-1 HipSTR-references]$ nohup python 3new-hipstrANNOTATE.py  --gff /groups/dolan/user/shuangyang.wu/ref/TakV7/MpTak_v7.1.gff --te_bed ../1-hipstr/TE.bed --compartment ../1-hipstr/chrom_regions.tsv -t 10  STR.all.info STR.all.annotation.update.info  &
+RESULT:STR type annotation: (tools3) [shuangyang.wu@clip-login-1 HipSTR-references]$ nohup python 3new-hipstrANNOTATE.py  --gff shuangyang.wu/ref/TakV7/MpTak_v7.1.gff --te_bed ../1-hipstr/TE.bed --compartment ../1-hipstr/chrom_regions.tsv -t 10  STR.all.info STR.all.annotation.update.info  &
 ######str gene gff annotation#####
 /scratch-cbe/users/shuangyang.wu/str/1-hipstr
 module load cufflinks/2.2.1-foss-2018b
 gffread MpTak_v7.1.gff -T -o my.gtf
 module load kent_tools/20190507-linux.x86_64
 gtfToGenePred  -genePredExt my.gtf genome_refGene.txt
-/groups/dolan/user/shuangyang.wu/software/annovar/retrieve_seq_from_fasta.pl --format refGene --seqfile MpTak_v7.1.fa genome_refGene.txt --out genome_refGeneMrna.fa
-/groups/dolan/user/shuangyang.wu/software/annovar/convert2annovar.pl -format vcf4old STR_all_filtered_Fmiss01.vcf.gz  >vcf.annovar.inputi
-/groups/dolan/user/shuangyang.wu/software/annovar/annotate_variation.pl --geneanno --neargene 2000 --dbtype refGene -out tes-1 --buildver genome vcf.annovar.inputi /groups/dolan/user/shuangyang.wu/ref/TakV7/genome/
+shuangyang.wu/software/annovar/retrieve_seq_from_fasta.pl --format refGene --seqfile MpTak_v7.1.fa genome_refGene.txt --out genome_refGeneMrna.fa
+shuangyang.wu/software/annovar/convert2annovar.pl -format vcf4old STR_all_filtered_Fmiss01.vcf.gz  >vcf.annovar.inputi
+shuangyang.wu/software/annovar/annotate_variation.pl --geneanno --neargene 2000 --dbtype refGene -out tes-1 --buildver genome vcf.annovar.inputi shuangyang.wu/ref/TakV7/genome/
 
   
   
@@ -94,7 +94,7 @@ BEGIN {
 #update this into a weigh script to do statistics
 RESULT:python 1-hipstr.statistics-1.py #hipstr_summary_final.tsv
 
-RESULT: perl /groups/dolan/user/shuangyang.wu/script/merge_files.pl -r ../HipSTR-references/STR.all.annotation.update.info -n 6 -i ../1-hipstr/hipstr_summary_final.tsv -c 2 -i ../1-hipstr/STR.pstr.info -c 1 -o out
+RESULT: perl shuangyang.wu/script/merge_files.pl -r ../HipSTR-references/STR.all.annotation.update.info -n 6 -i ../1-hipstr/hipstr_summary_final.tsv -c 2 -i ../1-hipstr/STR.pstr.info -c 1 -o out
 less -S out |sort -k1,1 -k2,2n > out1
 
 Update: 1-hipstr.statistics-2.py:less -S hipstr_summary_all_filtered.tsv |cut -f1,9-12 > expansionOrcontraction.tsv
@@ -2161,14 +2161,14 @@ bedtools merge -i str.bed > new.str.bed
 #SBATCH --time=5-00:00:00
 #SBATCH --output=my.stdout.xaa.191.bed
 bedtools intersect -a ../change.fmt.vcf -b xaa.191.bed -header >xaa.191.bed.snp.vcf
-/groups/dolan/user/shuangyang.wu/software/PopLDdecay/PopLDdecay -InVCF xaa.191.bed.snp.vcf -OutStat xaa.191.bed.stat.gz -MaxDist 50 -Miss 0.1 -OutType 3
+shuangyang.wu/software/PopLDdecay/PopLDdecay -InVCF xaa.191.bed.snp.vcf -OutStat xaa.191.bed.stat.gz -MaxDist 50 -Miss 0.1 -OutType 3
 
 
 cat  out.xaa.*|awk '$5>0'|sed 's/:/\t/'|cut -f1-5 > SNP-STR.LD &
 
 less -S SNP-STR.LD|awk '{print $0"\t"$1":"$3}' > SNP-STR.LD.1
 
-perl /groups/dolan/user/shuangyang.wu/script/merge_files.pl -r SNP-STR.LD.1 -n 6 -i ../../hipstr.id -c 1 -o xxxx
+perl shuangyang.wu/script/merge_files.pl -r SNP-STR.LD.1 -n 6 -i ../../hipstr.id -c 1 -o xxxx
 less -S xxxx |awk '!($7>0)'|cut -f1-5 > SNP-STR.LD.final
 
 
